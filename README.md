@@ -1,22 +1,22 @@
 # PocketWeek
 
-A standalone, mobile-first weekly money tracker inspired by premium iOS design.
+PocketWeek is a private, local-first weekly budgeting and spending tracker designed for a clean mobile experience.
 
-## Included in this first build
+## Privacy
 
-- Weekly budget + rollover
-- Animated budget progress and remaining balance
+PocketWeek does not connect to banks or external financial services. Your manually entered budgeting and spending data stays in your browser/app storage on your device.
+
+## Current features
+
+- Weekly budget and rollover
+- Animated spending progress
 - Savings and investing cards
-- Fast expense entry with automatic category guesses
+- Fast manual expense entry
+- Automatic category guesses for manual entries
 - Recent transactions
-- Month calendar with weekly cards
-- Reports with dollar-labeled category bars
-- Services, bills and paycheck sections
-- Notification/settings UI
-- Local persistence via localStorage
+- Monthly financial calendar
+- Spending reports
+- Recurring services, bills, and paycheck planning
+- Installable PWA for Android
 
-## Next phase
-
-PocketWeek will add secure bank connectivity through a backend integration such as Plaid. Bank credentials, access tokens, and secret API keys must never be stored in this public frontend repository.
-
-Open `index.html` in a browser to run the current MVP.
+The app is hosted with GitHub Pages and works from `index.html`.
