@@ -1,0 +1,13 @@
+{
+  "name":"PocketWeek",
+  "short_name":"PocketWeek",
+  "description":"Weekly budgeting and spending tracker",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#f8f9fb",
+  "theme_color":"#f7f8fa",
+  "icons":[
+    {"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
